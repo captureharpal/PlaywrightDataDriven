@@ -1,0 +1,7 @@
+INFO    2025-12-13 20:57:01,759 [main] testcases.BankManagerLoginTest  - Test Execution started !!!
+INFO    2025-12-13 20:57:01,770 [main] testcases.BankManagerLoginTest  - OR Properties file loaded.
+INFO    2025-12-13 20:57:08,646 [main] testcases.BankManagerLoginTest  - Launching Chrome browser
+INFO    2025-12-13 20:57:11,286 [main] testcases.BankManagerLoginTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2025-12-13 20:57:12,278 [main] testcases.BankManagerLoginTest  - Clicking on an Element : bmlBtn_CSS
+INFO    2025-12-13 20:57:12,618 [main] testcases.BankManagerLoginTest  - Finding an Element : addCustBtn_CSS
+INFO    2025-12-13 20:57:12,634 [main] testcases.BankManagerLoginTest  - Finding an Element : addCustBtn_CSS

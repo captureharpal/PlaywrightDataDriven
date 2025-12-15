@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Framework">
+
+	<listeners>
+
+		<listener class-name="extentlisteners.ExtentListeners" />
+
+
+	</listeners>
+
+
+<!--	<test name="MastercardProductLinkTest">
+		<classes>
+			<class name="testcases.MastercardProductLinkTest" />
+
+		</classes>
+	</test>
+		<test name="DeveloperMastercardTest">
+		<classes>
+			<class name="testcases.DeveloperMastercardTest" />
+
+		</classes>
+	</test>-->
+		<test name="Open Account Test">
+		<classes>
+			<class name="testcases.OpenAccountTest" />
+
+		</classes>
+	</test>
+		<test name="Add Customer Test">
+		<classes>
+			<class name="testcases.AddCustomerTest" />
+
+		</classes>
+	</test>
+    <test name="BankManagerLoginTest">
+        <classes>
+            <class name="testcases.BankManagerLoginTest" />
+
+        </classes>
+    </test>
+
+
+</suite> <!-- Suite -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Driven Framework]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="MastercardProductLinkTest(failed)">
+    <classes>
+      <class name="testcases.MastercardProductLinkTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+          <include name="ProductLinkMastercardTest"/>
+          <include name="quitPlaywright"/>
+        </methods>
+      </class> <!-- testcases.MastercardProductLinkTest -->
+    </classes>
+  </test> <!-- MastercardProductLinkTest(failed) -->
+  <test thread-count="5" name="DeveloperMastercardTest(failed)">
+    <classes>
+      <class name="testcases.DeveloperMastercardTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+          <include name="quitPlaywright"/>
+          <include name="loginMastercardTest"/>
+        </methods>
+      </class> <!-- testcases.DeveloperMastercardTest -->
+    </classes>
+  </test> <!-- DeveloperMastercardTest(failed) -->
+</suite> <!-- Failed suite [Data Driven Framework] -->
