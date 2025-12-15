@@ -19,7 +19,14 @@ pipeline {
         }
       }
     }
-
+stage('Show Java/Maven versions') {
+  steps {
+    bat 'java -version'
+    bat 'mvn -version'
+    bat 'where java'
+    bat 'where mvn'
+  }
+}
     stage('Run Tests') {
       steps {
         script {
